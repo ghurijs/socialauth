@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0-alpha.1
+
+- Drop an unused `readBody` import and re-export (custom providers import it from `@ghuri/oauth`).
+
 ## 0.1.0-alpha.0
 
 - Initial alpha (ARCHITECTURE.md §18).

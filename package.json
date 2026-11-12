@@ -1,6 +1,6 @@
 {
   "name": "@ghuri/socialauth",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "Ghuri social login in django-allauth style: GitHub, Google, Facebook, Microsoft, Discord, GitLab and any OpenID Connect provider",
   "type": "module",
   "license": "MIT",
