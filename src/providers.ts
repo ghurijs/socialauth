@@ -10,7 +10,6 @@ import {
   type Profile,
   profileFromClaims,
   providerFetch,
-  readBody,
   type VerifyFunction,
 } from '@ghuri/oauth'
 import type { AppSettings, ProviderSettings } from './settings'
@@ -405,6 +404,3 @@ export function getProvider(id: string): Provider | undefined {
 export function allProviders(): Provider[] {
   return [...registry.values()]
 }
-
-/** Used by provider subclasses that need raw responses. */
-export { readBody }
